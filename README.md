@@ -83,8 +83,6 @@ You can download and run it directly without needing the source code.
 
 ## 🎯 Future Improvements
 - Add database support (MySQL/PostgreSQL) for persistent storage
-- Implement GUI with JavaFX/Swing
-- Add user authentication system
 
 ---
 
