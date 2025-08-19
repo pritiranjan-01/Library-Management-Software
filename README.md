@@ -1,95 +1,94 @@
-# 📚 CLI Library Management System  
+# 📚 Library Management Software
 
-A simple **Java-based CLI project** to manage library operations such as **Add, Remove, Update, View, Issue, Return, and Search Books**. This project demonstrates **Object-Oriented Programming (OOP) principles** and uses the **Collections framework** to efficiently manage data.  
-
----
-
-## 🚀 Features  
-- ➕ **Add Books** – Add new books with ID, title, author, and category  
-- ✏️ **Update Books** – Modify book details like title, author, or category  
-- ➖ **Remove Books** – Delete books from the library by ID  
-- 👀 **View Books** – Display all available books  
-- 📖 **Issue Books** – Students can borrow books  
-- 🔄 **Return Books** – Students can return borrowed books  
-- 🎓 **Student Management** – Register and manage students  
-- 🔍 **Search Books**  
-  - Search by **Book Name**  
-  - Search by **Author**  
-  - Search by **Book ID**  
-  - Search by **Category**  
-- 🖥 **CLI Menu** – Interactive, user-friendly console-based interface  
+A **CLI-based Library Management System** built in Java to handle common library operations such as adding, removing, updating, viewing, issuing, returning, and searching books.  
+Supports multiple user roles (**Admin** and **Student**) with separate functionalities.  
 
 ---
 
-## 👥 User Types  
-- **👨‍💼 Admin**  
-  - Add, Update, Remove Books  
-  - View all books  
-  - Manage student records  
-  - View issued/returned books  
+## 🚀 Features
 
-- **🎓 Student**  
-  - Search books by name, author, ID, or category  
-  - Issue and return books  
-  - View available books  
+### 🔑 User Roles
+- **Admin**
+  - Add new books to the library
+  - Update book details (title, author, category, etc.)
+  - Remove books
+  - View all available books
+- **Student**
+  - Search books
+  - Issue and return books
+  - View borrowed books
 
----
-
-## 🛠 Tech Stack  
-- **Language**: Java (Core)  
-- **Concepts**: Object-Oriented Programming (OOP)  
-- **Data Structures**: Java Collections (ArrayList, HashMap)  
-- **Interface**: Command-Line Interface (CLI)  
-
----
-
-## 📂 Project Structure  
-Library-Management-Software/
-│── Library Management System/
-│ ├── src/
-│ │ └── com/library/classes/
-│ │ ├── Admin.java
-│ │ ├── AdminFunctionality.java
-│ │ ├── Book.java
-│ │ ├── BookCategory.java
-│ │ ├── Library.java
-│ │ ├── MainClass.java
-│ │ ├── Student.java
-│ │ ├── StudentFunctionality.java
-│ │ └── UserInput.java
-│ ├── distribution/
-│ │ └── LibraryManagementSoftware.jar
-│── README.md
-
+### 🔍 Search Functionality
+- Search by **Book ID**
+- Search by **Book Name**
+- Search by **Author Name**
+- Search by **Category**
 
 ---
 
-## ▶️ Run from Source  
+## 🗂️ Project Structure
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/pritiranjan-01/Library-Management-Software.git
-   cd "Library-Management-Software/Library Management System"
-2.Compile the project:
-   javac -d bin src/com/library/classes/*.java
+```
+Library Management System/
+│── src/
+│   └── com.library.classes/
+│       ├── Admin.java
+│       ├── AdminFunctionality.java
+│       ├── Book.java
+│       ├── BookCategory.java
+│       ├── Library.java
+│       ├── MainClass.java   <-- Entry Point
+│       ├── Student.java
+│       ├── StudentFunctionality.java
+│       └── UserInput.java
+│
+└── distribution/
+    └── LibraryManagementSoftware.jar   <-- Executable JAR
+```
 
-3.Run the program:
-   java -cp bin com.library.classes.MainClass
+---
 
-# Download the ready-to-use JAR
-wget https://github.com/pritiranjan-01/Library-Management-Software/raw/main/Library%20Management%20System/distribution/LibraryManagementSoftware.jar
+## ⚡ Getting Started
 
-# Run the application
-java -jar LibraryManagementSoftware.jar
+### Prerequisites
+- Install [Java JDK 21+](https://www.oracle.com/java/technologies/javase-downloads.html)
 
-📦 Run Using JAR
+### Clone Repository
+```sh
+git clone https://github.com/pritiranjan-01/Library-Management-Software.git
+cd Library-Management-Software/Library\ Management\ System/distribution
+```
 
-You can directly download and run the compiled JAR file without compiling the source.
-# Download the ready-to-use JAR
-wget https://github.com/pritiranjan-01/Library-Management-Software/raw/main/Library%20Management%20System/distribution/LibraryManagementSoftware.jar
+### Run JAR
+```sh
+java -cp LibraryManagementSoftware.jar com.library.classes.MainClass
+```
 
-# Run the application
-java -jar LibraryManagementSoftware.jar
+---
 
-👨‍💻 Author
-Pritiranjan Mohanty
+## 📦 Distribution
+The compiled **JAR file** is available here:  
+➡️ [LibraryManagementSoftware.jar](https://github.com/pritiranjan-01/Library-Management-Software/blob/main/Library%20Management%20System/distribution/LibraryManagementSoftware.jar)
+
+You can download and run it directly without needing the source code.
+
+---
+
+## 🛠️ Tech Stack
+- **Language:** Java  
+- **Paradigm:** Object-Oriented Programming (OOP)  
+- **Type:** CLI (Command Line Interface)  
+
+---
+
+## 🎯 Future Improvements
+- Add database support (MySQL/PostgreSQL) for persistent storage
+- Implement GUI with JavaFX/Swing
+- Add user authentication system
+
+---
+
+## 👨‍💻 Author
+Developed by [**Pritiranjan Mohanty**](https://github.com/pritiranjan-01)  
+
+---
