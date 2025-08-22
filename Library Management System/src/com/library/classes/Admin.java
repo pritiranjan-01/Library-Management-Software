@@ -103,4 +103,9 @@ public class Admin {
 		  }	
 	   }
     }
+	
+	public void viewAllStudent() {	
+		library.viewStudent();	
+	}
 }
+
