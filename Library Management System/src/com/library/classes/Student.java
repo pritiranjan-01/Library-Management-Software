@@ -18,6 +18,11 @@ public class Student {
 	public int getId() {
 		return id;
 	}
+
+	@Override
+	public String toString() {
+		return "{ Id:" + id + ", Name: " + name + " }";
+	}
 	
 	public static void displayBooks() {
 		Library lib = Library.getLibrary();
@@ -58,3 +63,4 @@ public class Student {
 		else System.out.println("\nBook with "+bookId+" not found for Return");
 	}
 }
+
