@@ -139,4 +139,12 @@ public class Library {
 			}
 		}
 	}
+
+	public void viewStudent() {
+		System.out.println("The following Students present inside Library : ");	
+		for(Student s: students) {
+				System.out.println("  "+s);
+		}
+	}
 }
+
