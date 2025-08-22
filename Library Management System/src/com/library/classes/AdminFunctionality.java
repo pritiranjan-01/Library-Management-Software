@@ -31,6 +31,8 @@ public class AdminFunctionality {
 					break;
 			case 5: admin.searchBook();
 					break;
+			case 6: admin.viewAllStudent();
+					break;
 			case 0: return;
 			
 			default : System.out.println("Invalid Choice");
@@ -39,3 +41,4 @@ public class AdminFunctionality {
 		}
 	}
 }
+
