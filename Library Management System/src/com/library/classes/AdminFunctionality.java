@@ -9,12 +9,13 @@ public class AdminFunctionality {
 		System.out.println("\n Logged in as Admin 👮🏻");
 		while(true) {
 			System.out.println("\n Select from the below Menu :");
-			System.out.printf("%n%s %n%s %n%s %n%s %n%s %n %n%s %n",
+			System.out.printf("%n%s %n%s %n%s %n%s %n%s %n%s %n %n%s %n",
 				    "1. View All Books",
 				    "2. Add a Book",
 				    "3. Delete a Book",
 				    "4. Update a Book",
 				    "5. Search Book ",
+					"6. View All Students",			  
 				    "Press 0 return Main Menu ");
 			System.out.println("\n  > Enter your choice: ");
 			
@@ -41,4 +42,5 @@ public class AdminFunctionality {
 		}
 	}
 }
+
 
